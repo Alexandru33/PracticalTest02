@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "ro.pub.cs.systems.eim.practicaltest02"
-        minSdk = 16
+        minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -39,4 +39,8 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    implementation("cz.msebera.android:httpclient:4.4.1.2")
+    implementation ("com.squareup.picasso:picasso:2.71828")
+
 }
